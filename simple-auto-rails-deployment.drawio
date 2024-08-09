@@ -115,6 +115,18 @@
         <mxCell id="4xlNcZmjdb_tapX20zbH-87" value="&amp;nbsp;Github&amp;nbsp;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.github_code;pointerEvents=1;aspect=fixed;labelBackgroundColor=default;labelBorderColor=#0000FF;" vertex="1" parent="1">
           <mxGeometry x="-280" y="676" width="60" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="4xlNcZmjdb_tapX20zbH-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4xlNcZmjdb_tapX20zbH-90" target="4xlNcZmjdb_tapX20zbH-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4xlNcZmjdb_tapX20zbH-90" value="Deployment Admin" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.portal_admin;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-490" y="416" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4xlNcZmjdb_tapX20zbH-91" value="Internet" style="image;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-279" y="425.25" width="50" height="31.5" as="geometry" />
+        </mxCell>
+        <mxCell id="4xlNcZmjdb_tapX20zbH-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4xlNcZmjdb_tapX20zbH-91" target="4xlNcZmjdb_tapX20zbH-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
