@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.6">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
-    <mxGraphModel dx="3221" dy="1302" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2309" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -127,7 +127,7 @@
         <mxCell id="4xlNcZmjdb_tapX20zbH-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4xlNcZmjdb_tapX20zbH-90" target="4xlNcZmjdb_tapX20zbH-91">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4xlNcZmjdb_tapX20zbH-90" value="Deployment Admin" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.portal_admin;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="4xlNcZmjdb_tapX20zbH-90" value="&amp;nbsp;Deployment Admin&amp;nbsp;" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.portal_admin;aspect=fixed;labelBackgroundColor=default;labelBorderColor=none;" vertex="1" parent="1">
           <mxGeometry x="-519" y="416" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4xlNcZmjdb_tapX20zbH-91" value="Internet" style="image;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;aspect=fixed;" vertex="1" parent="1">
