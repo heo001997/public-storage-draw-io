@@ -29,7 +29,7 @@
           <mxGeometry x="39" y="40" width="560" height="880" as="geometry" />
         </mxCell>
         <mxCell id="nMllGIah5zcT56R1uGEE-3" value="VPC Shared Resource" style="fillColor=none;strokeColor=#5A6C86;dashed=1;verticalAlign=top;fontStyle=1;fontColor=#5A6C86;whiteSpace=wrap;html=1;" vertex="1" parent="nMllGIah5zcT56R1uGEE-1">
-          <mxGeometry x="839" y="390.75" width="240" height="160.5" as="geometry" />
+          <mxGeometry x="839" y="400" width="240" height="160" as="geometry" />
         </mxCell>
         <mxCell id="nMllGIah5zcT56R1uGEE-25" value="&amp;nbsp;DC - Customer Gateway&amp;nbsp;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.customer_gateway;fontFamily=Helvetica;labelBorderColor=#007FFF;labelBackgroundColor=default;" vertex="1" parent="nMllGIah5zcT56R1uGEE-1">
           <mxGeometry x="929" y="438" width="60" height="60" as="geometry" />
