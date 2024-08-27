@@ -30,7 +30,7 @@
         <mxCell id="nMllGIah5zcT56R1uGEE-26" value="&amp;nbsp;Site-to-Site Connection - AWS to DC&amp;nbsp;&lt;div&gt;Tunnel 1 Public IP: xxx.xxx.xxx.xxx&lt;/div&gt;&lt;div&gt;Tunnel 2 Public IP: xxx.xxx.xxx.xxx&lt;br&gt;&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;pointerEvents=1;shape=mxgraph.aws4.vpn_connection;aspect=fixed;fontFamily=Helvetica;labelBorderColor=#007FFF;labelBackgroundColor=default;spacing=10;" vertex="1" parent="nMllGIah5zcT56R1uGEE-1">
           <mxGeometry x="729" y="438" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nMllGIah5zcT56R1uGEE-55" value="Route table - AWS - Private SG" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=default;fontSize=14;rounded=1;fontStyle=1" vertex="1" parent="nMllGIah5zcT56R1uGEE-1">
+        <mxCell id="nMllGIah5zcT56R1uGEE-55" value="Route table - AWS - Private" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=default;fontSize=14;rounded=1;fontStyle=1" vertex="1" parent="nMllGIah5zcT56R1uGEE-1">
           <mxGeometry x="839" y="40" width="240" height="160" as="geometry" />
         </mxCell>
         <mxCell id="nMllGIah5zcT56R1uGEE-56" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="nMllGIah5zcT56R1uGEE-55">
@@ -82,7 +82,64 @@
             <mxRectangle width="120" height="43" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nMllGIah5zcT56R1uGEE-67" value="&lt;span style=&quot;color: rgb(35, 47, 62); font-size: 14px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;vgw-id&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=14;" vertex="1" parent="nMllGIah5zcT56R1uGEE-64">
+        <mxCell id="nMllGIah5zcT56R1uGEE-67" value="&lt;span style=&quot;color: rgb(35, 47, 62); font-size: 14px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;&amp;lt;vgw-id&amp;gt;&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=14;" vertex="1" parent="nMllGIah5zcT56R1uGEE-64">
+          <mxGeometry x="160" width="80" height="43" as="geometry">
+            <mxRectangle width="80" height="43" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nMllGIah5zcT56R1uGEE-68" value="Route table - DC - Public" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=default;fontSize=14;rounded=1;fontStyle=1" vertex="1" parent="nMllGIah5zcT56R1uGEE-1">
+          <mxGeometry x="839" y="680" width="240" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="nMllGIah5zcT56R1uGEE-69" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="nMllGIah5zcT56R1uGEE-68">
+          <mxGeometry y="30" width="240" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="nMllGIah5zcT56R1uGEE-70" value="ID" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=14;" vertex="1" parent="nMllGIah5zcT56R1uGEE-69">
+          <mxGeometry width="40" height="43" as="geometry">
+            <mxRectangle width="40" height="43" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nMllGIah5zcT56R1uGEE-71" value="Destination" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=14;" vertex="1" parent="nMllGIah5zcT56R1uGEE-69">
+          <mxGeometry x="40" width="120" height="43" as="geometry">
+            <mxRectangle width="120" height="43" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nMllGIah5zcT56R1uGEE-72" value="Target" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=14;" vertex="1" parent="nMllGIah5zcT56R1uGEE-69">
+          <mxGeometry x="160" width="80" height="43" as="geometry">
+            <mxRectangle width="80" height="43" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nMllGIah5zcT56R1uGEE-73" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="nMllGIah5zcT56R1uGEE-68">
+          <mxGeometry y="73" width="240" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="nMllGIah5zcT56R1uGEE-74" value="1" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=14;" vertex="1" parent="nMllGIah5zcT56R1uGEE-73">
+          <mxGeometry width="40" height="44" as="geometry">
+            <mxRectangle width="40" height="44" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nMllGIah5zcT56R1uGEE-75" value="192.168.0.0/16" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=14;" vertex="1" parent="nMllGIah5zcT56R1uGEE-73">
+          <mxGeometry x="40" width="120" height="44" as="geometry">
+            <mxRectangle width="120" height="44" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nMllGIah5zcT56R1uGEE-76" value="local" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=14;" vertex="1" parent="nMllGIah5zcT56R1uGEE-73">
+          <mxGeometry x="160" width="80" height="44" as="geometry">
+            <mxRectangle width="80" height="44" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nMllGIah5zcT56R1uGEE-77" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="nMllGIah5zcT56R1uGEE-68">
+          <mxGeometry y="117" width="240" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="nMllGIah5zcT56R1uGEE-78" value="2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=14;" vertex="1" parent="nMllGIah5zcT56R1uGEE-77">
+          <mxGeometry width="40" height="43" as="geometry">
+            <mxRectangle width="40" height="43" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nMllGIah5zcT56R1uGEE-79" value="0.0.0.0/0" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=14;" vertex="1" parent="nMllGIah5zcT56R1uGEE-77">
+          <mxGeometry x="40" width="120" height="43" as="geometry">
+            <mxRectangle width="120" height="43" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nMllGIah5zcT56R1uGEE-80" value="&lt;font color=&quot;#232f3e&quot;&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;&amp;lt;igw-id&amp;gt;&lt;/span&gt;&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=14;" vertex="1" parent="nMllGIah5zcT56R1uGEE-77">
           <mxGeometry x="160" width="80" height="43" as="geometry">
             <mxRectangle width="80" height="43" as="alternateBounds" />
           </mxGeometry>
@@ -117,7 +174,7 @@
         <mxCell id="nMllGIah5zcT56R1uGEE-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="nMllGIah5zcT56R1uGEE-18" target="nMllGIah5zcT56R1uGEE-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nMllGIah5zcT56R1uGEE-20" value="&amp;nbsp;Internet Gateway - DC&amp;nbsp;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.internet_gateway;labelBackgroundColor=default;labelBorderColor=#007FFF;" vertex="1" parent="1">
+        <mxCell id="nMllGIah5zcT56R1uGEE-20" value="&amp;nbsp;Internet Gateway - DC&amp;nbsp;&lt;div&gt;igw-id&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.internet_gateway;labelBackgroundColor=default;labelBorderColor=#007FFF;" vertex="1" parent="1">
           <mxGeometry x="528" y="680" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nMllGIah5zcT56R1uGEE-18" value="&amp;nbsp;EC2 - DC - EC2 Openswan Gateway&amp;nbsp;&lt;div&gt;Private IP: 192.168.1.x&lt;/div&gt;&lt;div&gt;Public IP: xxx.xxx.xxx.xxx&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#ED7100;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.t2_instance;labelBackgroundColor=default;labelBorderColor=#FFD966;" vertex="1" parent="1">
