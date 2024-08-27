@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="nMllGIah5zcT56R1uGEE-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;spacing=10;startArrow=classic;startFill=1;" edge="1" parent="1" source="nMllGIah5zcT56R1uGEE-20" target="nMllGIah5zcT56R1uGEE-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="nMllGIah5zcT56R1uGEE-6" value="VPC - AWS - 10.10.0.0/16" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=1;container=0;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_vpc2;strokeColor=#009900;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#FF9933;dashed=0;" vertex="1" parent="1">
           <mxGeometry x="158" y="160" width="481" height="320" as="geometry" />
         </mxCell>
@@ -24,11 +27,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nMllGIah5zcT56R1uGEE-26" value="&amp;nbsp;Site-to-Site Connection - AWS to DC&amp;nbsp;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;pointerEvents=1;shape=mxgraph.aws4.vpn_connection;aspect=fixed;fontFamily=Helvetica;labelBorderColor=#007FFF;labelBackgroundColor=default;spacing=10;" vertex="1" parent="nMllGIah5zcT56R1uGEE-1">
+        <mxCell id="nMllGIah5zcT56R1uGEE-26" value="&amp;nbsp;Site-to-Site Connection - AWS to DC&amp;nbsp;&lt;div&gt;Tunnel 1 Public IP: xxx.xxx.xxx.xxx&lt;/div&gt;&lt;div&gt;Tunnel 2 Public IP: xxx.xxx.xxx.xxx&lt;br&gt;&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;pointerEvents=1;shape=mxgraph.aws4.vpn_connection;aspect=fixed;fontFamily=Helvetica;labelBorderColor=#007FFF;labelBackgroundColor=default;spacing=10;" vertex="1" parent="nMllGIah5zcT56R1uGEE-1">
           <mxGeometry x="729" y="438" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="nMllGIah5zcT56R1uGEE-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;spacing=10;startArrow=classic;startFill=1;" edge="1" parent="1" source="nMllGIah5zcT56R1uGEE-20" target="nMllGIah5zcT56R1uGEE-26">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nMllGIah5zcT56R1uGEE-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;spacing=10;startArrow=classic;startFill=1;" edge="1" parent="1" source="nMllGIah5zcT56R1uGEE-24" target="nMllGIah5zcT56R1uGEE-26">
           <mxGeometry relative="1" as="geometry" />
